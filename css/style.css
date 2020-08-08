@@ -1,0 +1,138 @@
+#otherdwnld-content ul
+{
+	list-style: none;
+}
+#otherdwnld-content ul li div a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#otherdwnld-content ul li a h1
+{
+	font-size:23px;
+	font-weight:bold;
+}
+
+#otherdwnld-content img
+{
+	width:20px;
+	height:20px;
+}
+
+#etdsinst-panel
+{
+	font-size:17px;
+	font-family:Consolas;
+	background-color:#e6e6e6;
+	border:solid 1px #737ca1;
+}
+
+#etdsinst-panel ul li
+{
+	padding:3px;
+	color:black;
+}
+
+#fvu35
+{
+	color:white;
+	display:block;
+	border:1px solid;
+	border-color:#aaa #000 #000 #aaa;
+	text-decoration:none;
+	width:10em; 
+	text-align:center;
+	height:2em; 
+	line-height:2em;
+	background:#b2b2b2; 
+	font-weight:bold;
+	margin-top:10px;
+	font-size:15px;
+	margin-left:15px;
+}
+#fvu35:hover, #exe:hover, #pdf:hover
+{
+	color:white;
+	background:#98afc7;
+	position:relative;
+	top:1px;
+	left:1px;
+	border-color:#000 #aaa #aaa #000
+}
+
+#etdsinst-panel h3
+{
+	padding:10px;
+	font-weight:bold;
+}
+
+/*========grain=======*/
+#downloads ul				
+{
+	font-size:17px;
+	font-family:Consolas;
+	background-color:#e6e6e6;
+	border:solid 1px #737ca1;
+	padding:3px;
+	color:black;
+	display:none;
+}
+#downloads ul li 
+{
+	margin-left:15px;
+}
+#downloads ul li h3
+{
+	padding:10px;
+	font-weight:bold;
+}
+
+#exe
+{
+	color:white;
+	border:1px solid;
+	border-color:#aaa #000 #000 #aaa;
+	text-decoration:none;
+	width:10em; 
+	text-align:center;
+	height:2em; 
+	line-height:2em;
+	background:#b2b2b2; 
+	font-weight:bold;
+	margin-top:10px;
+	font-size:15px;
+	margin-left:15px;
+	padding:5px 10px 5px 10px;
+}
+
+#pdf
+{
+	color:white;
+	border:1px solid;
+	border-color:#aaa #000 #000 #aaa;
+	text-decoration:none;
+	width:10em; 
+	text-align:center;
+	height:2em; 
+	line-height:2em;
+	background:#b2b2b2; 
+	font-weight:bold;
+	margin-top:10px;
+	font-size:15px;
+	margin-left:15px;
+	padding:5px 10px 5px 10px;
+}
+
+#note
+{
+	/*border:1px solid;*/
+	margin-left:45px;
+	font-family: 'Abel', sans-serif;
+	font-size:19px;
+	color:black;
+}
+
+#note ul
+{
+}
