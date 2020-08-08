@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Soft One Enterprise</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+
+		<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/attention.css" rel="stylesheet"/>
+
+		<link href="widgets/tooltip/tipTip.css" rel="stylesheet"/>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="widgets/tooltip/jquery.tipTip.js"></script>
+		<script type="text/javascript" src="widgets/tooltip/jquery.tipTip.minified.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".tooltipTip").tipTip({maxWidth: "auto", edgeOffset: 20});
+			});
+			/*---------*/
+			$(document).ready(function(){
+				$("#details_drop").hide();
+				$("#details").click(function(){
+					$("#details_drop").slideDown(1000);
+				});
+			});
+			/*------*/	
+		</script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="wrapper-bgtop">
+				<div id="wrapper-bgbtm">
+					<div id="header">
+						<div id="logo">
+							<h1><a href="#">SOFT ONE &nbsp;ENTERPRISE</a></h1>
+							<p>TURBO CONSULTANCY SERVICES</p>
+						</div>
+					</div>
+					<div id="menu">
+						<ul>
+							<li><a href="guj-index.html">ગુજરાતી</a></li>
+							<li><a href="register.html">REGISTER</a></li>
+							<li><a href="index.html">HOME</a></li>
+						</ul>
+					</div>
+					<!---container starts--->
+					<div id="attention">
+						<a class="tooltipTip" title="Attention : Windows 98 users will not be able to update the software from this site as Windows 98 lacks certain features necessary to run / open some of the critical files. Therefore, please get Windows XP installed on your computers at the earliest." style="color:red;">
+							<marquee>
+							Attention : Windows 98 users will not be able to update the software from this site as Windows 98 lacks certain features necessary to run / open some of the critical files. Therefore, please get Windows XP installed on your computers at the earliest.
+							</marquee>
+						</a>
+					</div>
+					<div id="page">
+						<div id="content">
+							<div class="post">
+								<center><h1><b>For our esteemed clients</b></h1></center>
+								<div class="entry">
+									<div id="main-content">
+										<ul>
+											<li>
+												<a href="grain.html">
+													<img src="images/forward.png"/>
+													&nbsp;&nbsp;&nbsp;Download GRAIN.EXE
+													<br>
+													<span>(Only for Grain, Pulses, Sugar, Kopra and Masala Merchants)</span>
+												</a>
+											</li>
+											<li>
+												<a href="Shrifal.html">
+													<img src="images/forward.png"/>
+													&nbsp;&nbsp;&nbsp;Download SHRIFAL.EXE
+													<br>
+													<span>(Only for Coconut Merchants)</span>
+												</a>
+											</li>
+											<li>
+												<a href="otherdownloads.html">
+													<img src="images/forward.png"/>
+													&nbsp;&nbsp;&nbsp;Other Downloads
+													<br>
+													<span>(For all clients)</span>
+												</a>
+											</li>
+											<li id="details">
+												<a href="https://tin.tin.nsdl.com/oltas/index.html" target="_blank">
+													<img src="images/forward.png"/>
+													&nbsp;&nbsp;&nbsp;Click here to download the .csi file required for e-TDS file validation utility.
+													<br>
+													<span>(For all clients)&nbsp; </span>
+												</a>
+												<div id="details_drop" style="border:1px solid;background:#fff;padding:5px;color:black;font-size:17px;margin:10px;">
+													<ol>
+														<li class="noCss">
+															You MUST specify Challan status inquiry file (.csi) file against Challan Input File Name with Path in e-TDS file validation utility, if you have deducted and paid TDS of any party during the quarter.
+														</li>
+														<li class="noCss">
+															To download the .csi file, click on TAN Based View button in the new Tab that has just opened.
+														</li>
+														<li class="noCss">
+															Enter TAN No, select proper period and click on View Challan details button. In response, challans during the specified period will be displayed on the screen.
+														</li>
+														<li class="noCss">
+															Verify the relevant challans as per instructions given on the page.
+														</li>
+														<li class="noCss">
+															After the successful verification, click on Download Challan file and save it in appropriate folder for the quarter (i.e. Q1/Q2/Q3/Q4 folder).
+														</li>
+													</ol>
+												</div>
+											</li>
+											<li>
+												<a href="tutorials.html">
+													<img src="images/forward.png"/>
+													&nbsp;&nbsp;&nbsp;Tutorials
+													<br>
+													<span>(For all clients)</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" class="container">
+			<p>&copy; www.softone.co.in&nbsp;&nbsp;|&nbsp;&nbsp;created by&nbsp;&nbsp;<a href="#">Dhwani Haria</a>&nbsp;&nbsp;</p>
+		</div>
+	</body>
+</html>
