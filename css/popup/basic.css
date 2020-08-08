@@ -1,7 +1,7 @@
 
 #basic-modal-content {display:none;}
 
-#simplemodal-overlay {background-color:#000; cursor:url(../img/basic/slash_button.png),auto;}
+#simplemodal-overlay {background-color:#000; cursor:url(images/popup/slash_button.png),auto;}
 
 /* Container */
 #simplemodal-container 
@@ -24,7 +24,7 @@ color:#ddd;
 }
 #simplemodal-container a.modalCloseImg 
 {
-background:url(../img/basic/x.png) no-repeat; 
+background:url(images/popup/x.png) no-repeat; 
 width:25px; 
 height:29px; 
 display:inline; 
